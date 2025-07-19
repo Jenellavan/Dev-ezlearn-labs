@@ -11,6 +11,10 @@ SSH into your EC2 instance and run:
 ```bash
 sudo /opt/dynatrace/oneagent/agent/tools/oneagentctl --status
 ```
+or 
+
+systemctl status oneagent
+
 
 ✅ Expected output:
 
