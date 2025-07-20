@@ -9,12 +9,15 @@ This guide walks you through enabling log monitoring for your Node.js app using 
 1. On your EC2 instance, run:
 ```bash
 sudo /opt/dynatrace/oneagent/agent/tools/oneagentctl --list-configuration | grep log
-``
 
-```
+or
+
 sudo /opt/dynatrace/oneagent/agent/tools/oneagentctl --get-server
 sudo /opt/dynatrace/oneagent/agent/tools/oneagentctl --get-tenant
-```
+
+``
+
+
 
 
 2. If log monitoring is disabled, enable it with:
